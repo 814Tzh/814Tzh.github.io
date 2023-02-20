@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-e601d56a","path":"/pages/tsFolder/assertion/","title":"","lang":"en-US","frontmatter":{},"headers":[],"git":{},"filePathRelative":"pages/tsFolder/assertion/index.md"}');export{e as data};

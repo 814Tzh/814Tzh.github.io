@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.60">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <link rel="icon" href="/bike.png"><title>浪子无渡</title><meta name="description" content="Personal website">
+    <link rel="preload" href="/assets/style-5963348b.css" as="style"><link rel="stylesheet" href="/assets/style-5963348b.css">
+    <link rel="modulepreload" href="/assets/app-d4c3907a.js"><link rel="modulepreload" href="/assets/framework-204010b2.js"><link rel="modulepreload" href="/assets/index.html-72cbf105.js"><link rel="modulepreload" href="/assets/index.html-3a37a114.js"><link rel="prefetch" href="/assets/index.html-00595a37.js" as="script"><link rel="prefetch" href="/assets/index.html-006ec80a.js" as="script"><link rel="prefetch" href="/assets/index.html-2276fd52.js" as="script"><link rel="prefetch" href="/assets/test2.html-a9ba31bf.js" as="script"><link rel="prefetch" href="/assets/test3.html-c88bfd3b.js" as="script"><link rel="prefetch" href="/assets/web标准.html-a6ed0c21.js" as="script"><link rel="prefetch" href="/assets/index.html-0eea26a8.js" as="script"><link rel="prefetch" href="/assets/index.html-a2cb12c4.js" as="script"><link rel="prefetch" href="/assets/index.html-eadf6e03.js" as="script"><link rel="prefetch" href="/assets/404.html-60b35caa.js" as="script"><link rel="prefetch" href="/assets/index.html-5069b10e.js" as="script"><link rel="prefetch" href="/assets/index.html-41c6735b.js" as="script"><link rel="prefetch" href="/assets/index.html-5c7442be.js" as="script"><link rel="prefetch" href="/assets/test2.html-80fd09d7.js" as="script"><link rel="prefetch" href="/assets/test3.html-94fc4222.js" as="script"><link rel="prefetch" href="/assets/web标准.html-3d0160da.js" as="script"><link rel="prefetch" href="/assets/index.html-954177ce.js" as="script"><link rel="prefetch" href="/assets/index.html-264fcb05.js" as="script"><link rel="prefetch" href="/assets/index.html-6218417a.js" as="script"><link rel="prefetch" href="/assets/404.html-d1e63d77.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><!--[--><header class="navbar"><div class="toggle-sidebar-button" title="toggle sidebar" aria-expanded="false" role="button" tabindex="0"><div class="icon" aria-hidden="true"><span></span><span></span><span></span></div></div><span><a href="/" class=""><img class="logo" src="/bike.png" alt="浪子无渡"><span class="site-name can-hide">浪子无渡</span></a></span><div class="navbar-items-wrapper" style=""><!--[--><!--]--><nav class="navbar-items can-hide"><!--[--><div class="navbar-item"><a href="/" class="" aria-label="首页"><!--[--><!--]--> 首页 <!--[--><!--]--></a></div><div class="navbar-item"><a href="/pages/tsFolder/" class="router-link-active" aria-label="TS"><!--[--><!--]--> TS <!--[--><!--]--></a></div><div class="navbar-item"><a href="/pages/cmsFolder/" class="" aria-label="后台"><!--[--><!--]--> 后台 <!--[--><!--]--></a></div><div class="navbar-item"><a href="/pages/algorithmFolder/" class="" aria-label="算法"><!--[--><!--]--> 算法 <!--[--><!--]--></a></div><div class="navbar-item"><a class="external-link" href="https://github.com/814Tzh" rel="noopener noreferrer" target="_blank" aria-label="GitHub"><!--[--><!--]--> GitHub <span><svg class="external-link-icon" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg><span class="external-link-icon-sr-only">open in new window</span></span><!--[--><!--]--></a></div><!--]--></nav><!--[--><!--]--><button class="toggle-color-mode-button" title="toggle color mode"><svg style="" class="icon" focusable="false" viewBox="0 0 32 32"><path d="M16 12.005a4 4 0 1 1-4 4a4.005 4.005 0 0 1 4-4m0-2a6 6 0 1 0 6 6a6 6 0 0 0-6-6z" fill="currentColor"></path><path d="M5.394 6.813l1.414-1.415l3.506 3.506L8.9 10.318z" fill="currentColor"></path><path d="M2 15.005h5v2H2z" fill="currentColor"></path><path d="M5.394 25.197L8.9 21.691l1.414 1.415l-3.506 3.505z" fill="currentColor"></path><path d="M15 25.005h2v5h-2z" fill="currentColor"></path><path d="M21.687 23.106l1.414-1.415l3.506 3.506l-1.414 1.414z" fill="currentColor"></path><path d="M25 15.005h5v2h-5z" fill="currentColor"></path><path d="M21.687 8.904l3.506-3.506l1.414 1.415l-3.506 3.505z" fill="currentColor"></path><path d="M15 2.005h2v5h-2z" fill="currentColor"></path></svg><svg style="display:none;" class="icon" focusable="false" viewBox="0 0 32 32"><path d="M13.502 5.414a15.075 15.075 0 0 0 11.594 18.194a11.113 11.113 0 0 1-7.975 3.39c-.138 0-.278.005-.418 0a11.094 11.094 0 0 1-3.2-21.584M14.98 3a1.002 1.002 0 0 0-.175.016a13.096 13.096 0 0 0 1.825 25.981c.164.006.328 0 .49 0a13.072 13.072 0 0 0 10.703-5.555a1.01 1.01 0 0 0-.783-1.565A13.08 13.08 0 0 1 15.89 4.38A1.015 1.015 0 0 0 14.98 3z" fill="currentColor"></path></svg></button><!----></div></header><!--]--><div class="sidebar-mask"></div><!--[--><aside class="sidebar"><nav class="navbar-items"><!--[--><div class="navbar-item"><a href="/" class="" aria-label="首页"><!--[--><!--]--> 首页 <!--[--><!--]--></a></div><div class="navbar-item"><a href="/pages/tsFolder/" class="router-link-active" aria-label="TS"><!--[--><!--]--> TS <!--[--><!--]--></a></div><div class="navbar-item"><a href="/pages/cmsFolder/" class="" aria-label="后台"><!--[--><!--]--> 后台 <!--[--><!--]--></a></div><div class="navbar-item"><a href="/pages/algorithmFolder/" class="" aria-label="算法"><!--[--><!--]--> 算法 <!--[--><!--]--></a></div><div class="navbar-item"><a class="external-link" href="https://github.com/814Tzh" rel="noopener noreferrer" target="_blank" aria-label="GitHub"><!--[--><!--]--> GitHub <span><svg class="external-link-icon" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg><span class="external-link-icon-sr-only">open in new window</span></span><!--[--><!--]--></a></div><!--]--></nav><!--[--><!--]--><ul class="sidebar-items"><!--[--><li><p tabindex="0" class="sidebar-item sidebar-heading active">TypeScript <!----></p><ul style="" class="sidebar-item-children"><!--[--><li><a href="/pages/tsFolder/" class="router-link-active sidebar-item" aria-label="基础类型"><!--[--><!--]--> 基础类型 <!--[--><!--]--></a><!----></li><li><a href="/pages/tsFolder/assertion/" class="sidebar-item" aria-label="断言"><!--[--><!--]--> 断言 <!--[--><!--]--></a><!----></li><li><a aria-current="page" href="/pages/tsFolder/tsConfig/" class="router-link-active router-link-exact-active router-link-active sidebar-item active" aria-label="tsconfig.json配置"><!--[--><!--]--> tsconfig.json配置 <!--[--><!--]--></a><ul style="" class="sidebar-item-children"><!--[--><li><a aria-current="page" href="/pages/tsFolder/tsConfig/#基础配置" class="router-link-active router-link-exact-active sidebar-item" aria-label="基础配置"><!--[--><!--]--> 基础配置 <!--[--><!--]--></a><!----></li><li><a aria-current="page" href="/pages/tsFolder/tsConfig/#complieroptions-编译项" class="router-link-active router-link-exact-active sidebar-item" aria-label="complierOptions 编译项"><!--[--><!--]--> complierOptions 编译项 <!--[--><!--]--></a><!----></li><!--]--></ul></li><!--]--></ul></li><li><p tabindex="0" class="sidebar-item sidebar-heading">后台管理系统 <!----></p><ul style="" class="sidebar-item-children"><!--[--><li><a href="/pages/cmsFolder/" class="sidebar-item" aria-label="表单"><!--[--><!--]--> 表单 <!--[--><!--]--></a><!----></li><!--]--></ul></li><li><p tabindex="0" class="sidebar-item sidebar-heading">算法 <!----></p><ul style="" class="sidebar-item-children"><!--[--><li><a href="/pages/algorithmFolder/" class="sidebar-item" aria-label="扁平数据结构转Tree"><!--[--><!--]--> 扁平数据结构转Tree <!--[--><!--]--></a><!----></li><!--]--></ul></li><!--]--></ul><!--[--><!--]--></aside><!--]--><!--[--><main class="page"><!--[--><!--]--><div class="theme-default-content"><!--[--><!--]--><div><h3 id="基础配置" tabindex="-1"><a class="header-anchor" href="#基础配置" aria-hidden="true">#</a> 基础配置</h3><div class="language-typescript line-numbers-mode" data-ext="ts"><pre class="language-typescript"><code><span class="token punctuation">{</span>
+<span class="token comment">//tsconfig.json是ts编译器的配置文件，ts编译器</span>
+<span class="token comment">//路径：**表示任意目录 *表示任意文件</span>
+  <span class="token comment">// 需编译文件列表</span>
+  <span class="token string-property property">&quot;files&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+    <span class="token string">&quot;./src/index.ts&quot;</span>
+  <span class="token punctuation">]</span><span class="token punctuation">,</span>
+  <span class="token comment">// 包含匹配器</span>
+  <span class="token string-property property">&quot;include&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+    <span class="token string">&quot;src/**/*&quot;</span>
+  <span class="token punctuation">]</span><span class="token punctuation">,</span>
+  <span class="token comment">// 排除匹配器</span>
+  <span class="token string-property property">&quot;exclude&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+    <span class="token string">&quot;node_modules&quot;</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;**/*.js&quot;</span>
+  <span class="token punctuation">]</span><span class="token punctuation">,</span>
+  <span class="token comment">// 配置继承</span>
+  <span class="token string-property property">&quot;extends&quot;</span><span class="token operator">:</span> <span class="token string">&quot;./ts/base&quot;</span><span class="token punctuation">,</span>
+  <span class="token comment">// 保存时编译</span>
+  <span class="token string-property property">&quot;compileOnSave&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token comment">// 编译配置</span>
+  <span class="token string-property property">&quot;compilerOptions&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token comment">// 工程引用</span>
+  <span class="token string-property property">&quot;references&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="complieroptions-编译项" tabindex="-1"><a class="header-anchor" href="#complieroptions-编译项" aria-hidden="true">#</a> complierOptions 编译项</h3><div class="language-typescript line-numbers-mode" data-ext="ts"><pre class="language-typescript"><code>    <span class="token comment">// &quot;incremental&quot;: true,                       // 增置编译</span>
+    <span class="token comment">// &quot;tsBuildlnfoFile&quot;: &quot;./buildFile&quot;,          // 增置编译文件的存储位置</span>
+　　 <span class="token comment">// &quot;diagnostics&quot;: true,　　　　　　　　　　　　　　// 打印诊断倍息</span>
+    <span class="token comment">// &quot;target&quot;: &quot;es5&quot;,                           // 目标语言的版本</span>
+    <span class="token comment">// &quot;module&quot;: &quot;commonjs&quot;,                      // 生成代码的模块标准</span>
+    <span class="token comment">// &quot;outFile&quot;: &quot;./app-js&quot;,                     // 将多个相互依赖的文件生成一个文件，可以用在AMD模块中</span>
+    <span class="token comment">// &quot;lib&quot;: [],                                 // TS 需要引用的库，即声明文件，es5 默认&quot;dom&quot;, &quot;es5&quot;, &quot;scripthost&quot;</span>
+    <span class="token comment">// &quot;allowJs&quot;: true,                           // 允许编译：IS 文件（js、jsx)</span>
+    <span class="token comment">// &quot;checkJs&quot;: true,                           // 允许在JS文件中报错，通常与allowJS _起使用</span>
+    <span class="token comment">// &quot;outDir&quot;: &quot;./dist&quot;,                        // 指定输出目录</span>
+    <span class="token comment">// &quot;rootDir&quot;: &quot;./&quot;,                           // 指定输入文件目录（用于输出）</span>
+    <span class="token comment">// &quot;declaration&quot;: true,                       // 生成声明文件</span>
+    <span class="token comment">// &quot;declarationDir&quot;: &quot;./d&quot;,                   // 声明文件的路径</span>
+    <span class="token comment">// &quot;emitDeclarationOnly&quot;: true,               // 只生成声明文件</span>
+    <span class="token comment">// &quot;sourceMap&quot;: true,                         // 生成目标文件的    sourceMap</span>
+    <span class="token comment">// &quot;inlineSourceMap&quot;: true,                   // 生成目标文件的 inline sourceMap</span>
+    <span class="token comment">// &quot;declarationMap&quot;: true,                    // 生成声明文件的 sourceMap</span>
+    <span class="token comment">//  &quot;typeRoots&quot;:[],                           // 声明文件目录，默认node_modules/@types</span>
+    <span class="token comment">//  &quot;types&quot;:[],                               // 声明文件包</span>
+    <span class="token comment">//  &quot;removeComments&quot;:true,                    // 删除注释</span>
+    <span class="token comment">//    &quot;noEmit&quot;: true,                           // 不输出文件</span>
+    <span class="token comment">//    &quot;noEmitOnError&quot;: true,                    // 发生错误时不输出文件</span>
+    <span class="token comment">// &quot;noEmitHelpers&quot;: true,                     // 不生成helper 函数，需要额外安装ts-helpers</span>
+    <span class="token comment">// &quot;importHelpers&quot;: true,                     // 通过tslib 引入 helper 函数，文件必须是模块</span>
+    <span class="token comment">// unoEmitOnErrorM: true,                     // 发生错误时不输出文件</span>
+    <span class="token comment">// &quot;noEmitHelpers&quot;: true,                     // 不生成 helper 函数，需额外安装 ts-helpers </span>
+    <span class="token comment">// &quot;importHelpers&quot;: true,                     // 通过tslib引入helper函数，文件必须是模块</span>
+    <span class="token comment">// &quot;downlevellteration&quot; : true,               // 降级遍历器的实现（es3/5)</span>
+    <span class="token comment">// &quot;strict&quot;: true,                            // 开启所有严格的类型检查</span>
+    <span class="token comment">// &quot;alwaysStrict&quot;: false,                     // 在代码中注入&quot;use strict&quot;;</span>
+    <span class="token comment">// &quot;noImplicitAny&quot;: false,                    // 不允许隐式的any类型</span>
+    <span class="token comment">// &quot;strictNullChecksilj false,                // 不允许把null、undefined赋值给其他类型变置</span>
+    <span class="token comment">// &quot;strictFunctionTypes&quot;: false,              // 不允许函数参数双向协变</span>
+    <span class="token comment">// &quot;strictPropertyInitialization&quot;: false,     // 类的实例属性必须初始化</span>
+    <span class="token comment">// strictBindCallApply: false,                // 严格的 bind/call/apply 检査</span>
+    <span class="token comment">// &quot;noImplicitThis&quot;: false,                   // 不允许this有隐式的any类型</span>
+    <span class="token comment">// &quot;noUnusedLocals&quot;: true,                    // 检査只声明，未使用的局部变置 </span>
+    <span class="token comment">// &quot;nollnusedParameters&quot;: true,               // 检查未使用的函数参数</span>
+    <span class="token comment">// &quot;noFallthroughCasesInSwitch&quot;: true,        // 防止switch语句贯穿</span>
+    <span class="token comment">// &quot;noImplicitReturns&quot;: true,                 // 每个分支都要有返回值</span>
+    <span class="token comment">// &quot;esModulelnterop&quot;: true,                   // 允许export = 导出，由import from导入 </span>
+    <span class="token comment">// &quot;allowUrndGlobalAccess&quot;: true,             // 允许在模块中访问UMD全局变置</span>
+    <span class="token comment">// &quot;moduleResolution&quot;: &quot;node&quot;,                // 模块解析策略</span>
+    <span class="token comment">// &quot;baseUrl&quot;: &quot;./&quot;,                           // 解析非相对模块的基地址</span>
+    <span class="token comment">// &quot;paths&quot;: {</span>
+    <span class="token comment">//    &quot;jquery&quot;: [&quot;node-modules/jquery/dist/jquery.slim.min.js&quot;]</span>
+    <span class="token comment">//  }</span>
+    <span class="token comment">// &quot;rootDirs&quot;: [&quot;src&quot;, &quot;out&quot;],                // 将多个目录放在一个虚拟目录下，用于运行时</span>
+    <span class="token comment">// &quot;listEmittedFiles&quot;: true,                  // 打印输出的文件</span>
+    <span class="token comment">// &quot;listFiles&quot;: true,                         // 打印编译的文件（包括引用的声明文件）</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></div><!--[--><!--]--></div><footer class="page-meta"><!----><!----><!----></footer><nav class="page-nav"><p class="inner"><span class="prev"><a href="/pages/tsFolder/assertion/" class="" aria-label="断言"><!--[--><!--]--> 断言 <!--[--><!--]--></a></span><!----></p></nav><!--[--><!--]--></main><!--]--></div><!----><!--]--></div>
+    <script type="module" src="/assets/app-d4c3907a.js" defer></script>
+  </body>
+</html>

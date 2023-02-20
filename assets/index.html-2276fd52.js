@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-e935c09c","path":"/pages/htmlFolder/","title":"","lang":"en-US","frontmatter":{},"headers":[{"level":3,"title":"什么是网页？","slug":"什么是网页","link":"#什么是网页","children":[]},{"level":3,"title":"什么是html？","slug":"什么是html","link":"#什么是html","children":[]}],"git":{},"filePathRelative":"pages/htmlFolder/index.md"}');export{e as data};

@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-3bc8f37a","path":"/pages/tsFolder/genericity/","title":"","lang":"en-US","frontmatter":{},"headers":[{"level":3,"title":"处理函数参数","slug":"处理函数参数","link":"#处理函数参数","children":[]},{"level":3,"title":"默认参数","slug":"默认参数","link":"#默认参数","children":[]}],"git":{},"filePathRelative":"pages/tsFolder/genericity/index.md"}');export{e as data};

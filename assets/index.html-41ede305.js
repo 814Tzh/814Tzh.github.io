@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-6da3a406","path":"/pages/tsFolder/oop/","title":"","lang":"en-US","frontmatter":{},"headers":[{"level":3,"title":"两大编程思想","slug":"两大编程思想","link":"#两大编程思想","children":[]},{"level":3,"title":"类（Class）","slug":"类-class","link":"#类-class","children":[]}],"git":{},"filePathRelative":"pages/tsFolder/oop/index.md"}');export{e as data};
